@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=DM Sans"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/./css/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- navbar -->
+      <nav id="navbar">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Intro -->
+      <div id="header">
+        <div class="about-me">
+          <div class="text-part">
+            <h3>Hi, I am Tamara Zivkovic</h3>
+            <p>Frontend developer</p>
+            <div class="btn">
+              <button id="cv">
+                <a href="./cv/tamara živković eng.pdf" download="CV"
+                  >Download CV</a
+                >
+              </button>
+              <button id="learn-more">
+                <a href="https://github.com/tamarazivkovic994"> Learn more</a>
+              </button>
+            </div>
+          </div>
+          <div class="img-part">
+            <img src="./assets/img/image header.png" alt="art img" />
+          </div>
+        </div>
+      </div>
+
+      <!-- About me section -->
+      <div id="about">
+        <div class="main-text">
+          <h2>About me</h2>
+          <p>
+            I am a hardworking and ambitious individual with a great passion for
+            learning and advancing in a challenging environment. I have a clear,
+            logical mind with a practical approach to problem-solving and
+            excellent communication skills, enabling me to effectively
+            communicate about any topic.
+          </p>
+        </div>
+        <div id="grid-text">
+          <div class="email">
+            <img src="./assets/img/envelope-solid.svg" alt="icon mail" />
+            <h4 class="emailClick">Email</h4>
+            <!-- <p>tamara.zivkovic009@gmail.com</p> -->
+          </div>
+          <div class="linkedIn">
+            <img src="./assets/img/linkedin.svg" alt="icon linkedIn" />
+            <h4>
+              <a href="https://www.linkedin.com/in/tamarazivkovic94/"
+                >LinkedIn</a
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- My projects -->
+      <!-- when hover happens it flips and shows text on the other side  -->
+      <div id="projects">
+        <div class="title-projects">
+          <h2>My Projects</h2>
+        </div>
+        <div id="grid-projects">
+          <div class="game-project">
+            <a href="#"
+              ><img src="./assets/img/gamepad-solid.svg" alt="JS game"
+            /></a>
+            <p>About game</p>
+          </div>
+          <div class="portfolio-project">
+            <a href="#"
+              ><img src="./assets/img/shield-dog-solid.svg" alt="portfolio"
+            /></a>
+            <p>link ka dr portfoliu na GITu</p>
+          </div>
+          <div class="final-project">
+            <a href="#"
+              ><img src="./assets/img/shield-dog-solid.svg" alt="final project"
+            /></a>
+            <p>About project</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- My skills -->
+      <div id="skills">
+        <div class="title-skills">
+          <h2>Skills</h2>
+          <div id="grid-skills">
+            <div class="skill-1">
+              <a href="#"><img src="./assets/img/js.svg" alt="JS img" /></a>
+              <p>JavaScript</p>
+            </div>
+            <div class="skill-2">
+              <a href="#"
+                ><img src="./assets/img/css3-alt.svg" alt="CSS img"
+              /></a>
+              <p>CSS</p>
+            </div>
+            <div class="skill-3">
+              <a href=""><img src="./assets/img/html5.svg" alt="HTML img" /></a>
+              <p>HTML</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact me  -->
+      <div id="contact">
+        <h2>Get in touch</h2>
+        <div class="form">
+          <form>
+            <div class="form-group">
+              <input type="text" name="name" id="name" placeholder="Name" />
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+            <div class="form-group">
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button class="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/JS/main.js"></script>
+  </body>
+</html>
